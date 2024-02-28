@@ -1,0 +1,55 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+
+.navegacion-body{width:100%;max-width:1200px;margin:0 auto;font-family: "Roboto", sans-serif;max-width: 1200px; font-size:12px; .titulares{font-size:24px}}
+.contenedor1{width:100%;margin:0;background-color:#EAC926;box-sizing:border-box}
+
+.contenedor1-top-bar{
+    .logo{width:50%;display:flex;flex-grow:0.5}
+    .busqueda{display:flex;flex-grow:0.5}
+}
+
+.contenedor2{width:100%;margin:0;line-height:10px;box-sizing:border-box}
+.bloque1{border:solid 15px #ebebeb}
+.bloque2{border-top:solid 1px #ebebeb}
+.contenedor3{width:100%;margin:0;text-align:center;box-sizing:border-box}
+
+
+
+.navegacionCentral__item{display:none}
+.centrar{text-align:center}
+.precio{font-size:18px;flex-grow:0.3}
+.descuentos{font-size:16px;color:#39b54a;flex-grow:0.7}
+.descripciones{display:none;font-size:16px}
+.burger-menu .fa-solid{background-color:#1259C3;padding:8px;border-radius:5px}
+.burger-menu .fa-bars{color:white;font-size:15px}
+.burger-menu{text-align:center}
+.icono-footer{color:#1259C3;font-size:2em;margin-bottom:10px}
+.icono-camion{display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+color:#39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: relative;
+left: 75vw;
+top: -15px;}
+
+.main-nav{list-style:none;margin:0;padding:0}
+
+@media(min-width: 481px){
+    .navegacionCentral__item{display:block}
+    .descripciones{display:block}
+    .burger-menu{display:none}
+    body{box-shadow: 0px 0px 10px rgb(100, 100, 100)}
+}
+
+@media(min-width: 769px){
+    .navegacionCentral__item{display:block}
+    .descripciones{display:block}
+    .burger-menu{display:none}
+    body{box-shadow: 0px 0px 10px rgb(100, 100, 100)}
+}
+
